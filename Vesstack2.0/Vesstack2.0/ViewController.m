@@ -101,6 +101,8 @@ static ViewController *singletonInstance;
     [_mainView addGestureRecognizer:panGesture];
 
     _tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(showHome)];
+    
+    NSLog(@"It's me again");
 }
 
 -(void)setShadow:(UIView *)view{
