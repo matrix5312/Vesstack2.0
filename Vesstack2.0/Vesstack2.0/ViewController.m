@@ -103,6 +103,11 @@ static ViewController *singletonInstance;
     _tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(showHome)];
     
     NSLog(@"delete It's me");
+    NSLog(@"Hello");
+    NSLog(@"Hello");
+    NSLog(@"Hello");
+    NSLog(@"Hello");
+
 }
 
 -(void)setShadow:(UIView *)view{
